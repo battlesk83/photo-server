@@ -1438,12 +1438,12 @@ class _VideoIntroPageState extends State<VideoIntroPage> {
                       : const CircularProgressIndicator(),
             ),
 
-            // 로또: 6개 색상 공 일렬 + 추첨 번호 (화면 중간쯤에 배치해 버튼에 가리지 않게)
+            // 로또: 6개 색상 공 일렬 + 추첨 번호 (버튼에 가리지 않게 위쪽에 배치)
             if (widget.showLottoNumbers && _showLottoOverlay && _displayNumbers.length >= 6)
               Positioned(
                 left: 16,
                 right: 16,
-                bottom: 280,
+                bottom: 380,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: List.generate(6, (i) {
