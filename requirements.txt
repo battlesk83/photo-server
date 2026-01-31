@@ -4,5 +4,4 @@ uvicorn
 python-multipart
 pillow
 openai
-u2net
 rembg
