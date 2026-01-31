@@ -1,7 +1,6 @@
-rembg[cpu]
 fastapi
 uvicorn
-python-multipart
 pillow
-openai
 rembg
+openai
+python-multipart
